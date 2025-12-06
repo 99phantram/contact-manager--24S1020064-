@@ -1,5 +1,4 @@
 phonebook = []
-phonebook = []
 
 def add_contact():
     pass
@@ -44,7 +43,7 @@ def add_contact():
     })
 
     print("Đã thêm liên hệ.")
-    def view_contacts():
+def view_contacts():
     if not phonebook:
         print("Danh bạ trống.")
         return
